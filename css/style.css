@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15 px;
+    line-height: 1.5;
+    color: #121212;
+}
+
+.page {
+    width: 100%;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+    /*Header*/
+.header {
+    padding: 20px;
+    background-color: #121212;
+}
+
+.header-title {
+    margin: 0;
+    font-size: 24px;
+    color: azure;
+    text-align: center;
+}
+.header-subtitle {
+    margin: 0;
+    font-size: 16px;
+    color: azure;
+    text-align: center;
+    font-weight: 400;
+}
+.settings {
+    text-align: right;
+}
+.set-link {
+    display: inline-block;
+    padding: 2px 3px;
+}
+.set-link:hover {
+    background-color: #b5a8a8;
+}
+
+/*Nav*/
+.nav {
+    text-align: center;
+}
+.nav-link {
+    display: inline-block;
+    padding: 5px 7px;
+    text-decoration: none;
+    color: #121212;
+}
+.nav-link:hover{
+    background-color: #b5a8a8;
+    text-decoration: underline;
+}
+.readmore {
+    color: rgb(123, 132, 235);
+    text-decoration: none;
+}
+.readmore:hover {
+    text-decoration: underline;
+}
+
+/*Content*/
+.content {
+    margin: 20px 40px;
+}
+.content-text {
+    margin-bottom: 20px;
+}
+.content-title {
+    margin: 0 0 15px;
+    font-size: 24px;
+}
+
+/*Article*/
+.article {
+    margin: 20px 40px;
+    border-bottom: 1px solid #121212;
+}
+.article-title {
+    font-size: 18px;
+    color: blue;
+    margin: 0 0 5px;
+}
+.article-date {
+    color: #b5a8a8;
+    font-size: 12px;
+}
+
+.footer {
+    width: 100%;
+    padding: 20px;
+    color: aliceblue;
+    text-align: center;
+    background-color: #121212;
+}
+
+/*form*/
+.form {
+    width: 500px;
+    padding: 20px;
+    margin: 20px auto;
+
+    background-color: #b5a8a8;
+    border: 1px solid #121212;
+}
+.form-group {
+    margin-bottom: 10px;
+}
+.form-input {
+    display: block;
+    padding: 5px;
+    border: 1px solid #121212;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.form-input:focus {
+    outline: none;
+    background-color: #e8dcdc;
+}
+.form-textarea {
+    width: 200px;
+    height: 150px;
+    padding: 5px;
+    font-size: 13px;
+    border: 1pz solid #121212;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-textarea:focus {
+    outline: none;
+    background-color: #e8dcdc;
+}
+
+.link {
+    color: #121212;
+    text-decoration: none;
+}
+.link:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    padding: 5px;
+    background-color: rgb(207, 227, 227);
+    border: 1px solid #121212;
+    color: #121212;
+}
+
+/*важен порядок*/
+.btn:visited {
+    background-color: crimson;
+}
+.btn:hover {
+    background-color: rgb(191, 207, 207);
+    cursor: pointer;
+}
+.btn:active {
+    background-color: aqua;
+}
+.btn:disabled {
+    background-color: #b5a8a8;
+    color: #e8dcdc;
+    border: 1px solid #121212;
+    cursor: not-allowed;
+}
