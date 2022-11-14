@@ -15,6 +15,7 @@ body {
     /*Header*/
 .header {
     padding: 20px;
+    padding-top: 50px;
     background-color: #121212;
 }
 
@@ -32,11 +33,17 @@ body {
     font-weight: 400;
 }
 .settings {
+    position: fixed;
+    width: 100vw;
+    background-color: aliceblue;
     text-align: right;
 }
 .set-link {
     display: inline-block;
     padding: 2px 3px;
+}
+#set-icon {
+    margin-right: 20px;
 }
 .set-link:hover {
     background-color: #b5a8a8;
