@@ -81,4 +81,44 @@
                 </div>
                 </form>
         </div>
+
+        <div class="newform">
+            <form action="/" method="/">
+            <div class="formblock">
+                <h3 class="newform-title">Личные данные</h3>
+                <div class="newradio">
+                    <label for="male">Муж</label>
+                    <input type="radio" name="male" id="male" checked>
+                    <label for="female">Жен</label>
+                    <input type="radio" name="male" id="female">
+                </div>
+                    <input class="newform-input" type="text" name="Name" placeholder="Ваше имя">
+                    <input class="newform-input" type="email" name="e-mail" placeholder="Ваш e-mail">
+                    <input class="newform-input" type="tel" name="Phone" placeholder="Ваш номер телефона">
+                    <input class="newform-input" type="text" name="place" placeholder="Адрес проживания">
+                    <textarea class="newform-textarea" name="inf" placeholder="Информация о вас" ></textarea>
+
+                <h3 class="newform-title">Безопасность</h3>
+                <input class="newform-input" type="password" name="Pas" placeholder="Старый пароль">
+                <input class="newform-input" type="password" name="newPas" placeholder="Новый пароль">
+                <input class="newform-input" type="password" name="newPas" placeholder="Новый пароль еще раз">
+                <select class="newsel-input" name="Q">
+                    <option></option>
+                    <option>bygaga</option>
+                    <option>bygaga</option>
+                    <option>bygaga</option>
+                </select>
+                <input class="newform-input" type="text" name="Quest" placeholder="Ответ на вопрос">
+
+                <h3 class="newform-title">Оповещения</h3>
+                <div class="newcheck"><input  type="checkbox" name="check" id="1">
+                <label for="1">Получать новости на e-mail</label></div>
+                <div class="newcheck2"><input  type="checkbox" name="check" id="1">
+                <label for="1">Получать информацию о скидках</label></div>
+
+                <button class="newbtn1" type="submit">Сохранить</button>
+                <button class="newbtn2" type="reset">Отменить и очистить</button>
+            </div>
+        </form>
+        </div>
     </body>

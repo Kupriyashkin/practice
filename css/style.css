@@ -174,3 +174,79 @@ body {
     border: 1px solid #121212;
     cursor: not-allowed;
 }
+
+/*New Form*/
+.newform {
+    background-color: #f2f2f2;
+    font-family: Tahoma, sans-serif;
+    font-size: 15px;
+    color: #121212;
+}
+.formblock {
+    width: 400px;
+    background-color: white;
+    border: 1px solid #d0d0d0;
+    padding: 20px;
+    margin: 20px auto;
+}
+.newform-title {
+    font-size: 18px;
+    color: #1784bc;
+}
+.newradio {
+    margin-bottom: 20px;
+}
+.newform-input {
+    margin-bottom: 20px;
+    display: block;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid #d0d0d0;
+    color: #121212;
+    font-family: Tahoma, sans-serif;
+}
+.newform-textarea {
+    display: block;
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid #d0d0d0;
+    color: #121212;
+    font-family: Tahoma, sans-serif;
+    font-size: 15px;
+}
+.newsel-input {
+    width: 170px;
+    margin-bottom: 20px;
+    display: block;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid #d0d0d0;
+    color: #121212;
+    font-family: Tahoma, sans-serif;
+}
+.newcheck {
+    margin-bottom: 10px;
+}
+.newcheck2 {
+    margin-bottom: 20px;
+}
+.newbtn1 {
+    background-color: #97c89a;
+    padding: 8px;
+    border: 0;
+}
+.newbtn1:hover {
+    background-color: #37bf40;
+    cursor: pointer;
+}
+.newbtn2 {
+    background-color: #acacac;
+    padding: 8px;
+    border: 0;
+}
+.newbtn2:hover {
+    background-color: #807c7c;
+    cursor: pointer;
+}
